@@ -10,8 +10,8 @@ Modern, interactive React 18 web application for the Coffee Shop & Cafe Manageme
 ---
 
 ## 🔗 Repository Navigation
+- 📦 **Frontend Repository:** [github.com/Truongquocdat150605/quan-ly-quan-nuoc-frontend](https://github.com/Truongquocdat150605/quan-ly-quan-nuoc-frontend)
 - ⚙️ **Backend Repository:** [github.com/dattruongquoc78-cloud/javaa](https://github.com/dattruongquoc78-cloud/javaa)
-- 🚀 **Live Demo:** [TODO: Add Live Demo URL if Deployed]
 
 ---
 
