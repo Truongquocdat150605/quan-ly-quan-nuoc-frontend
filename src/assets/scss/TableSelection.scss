@@ -1,0 +1,79 @@
+/* ================================
+   🎨 Giao diện chọn bàn (TableSelection)
+   ================================ */
+
+.table-card {
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+
+.table-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.table-card.selected {
+  border: 2px solid #007bff !important;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.4);
+}
+
+/* 🔹 Hiệu ứng nền theo trạng thái bàn */
+.table-card[style*="background-color: #d4edda"] {
+  background: linear-gradient(145deg, #d4edda, #bde5c8);
+}
+.table-card[style*="background-color: #fff3cd"] {
+  background: linear-gradient(145deg, #fff3cd, #ffe699);
+}
+.table-card[style*="background-color: #f8d7da"] {
+  background: linear-gradient(145deg, #f8d7da, #f5b5ba);
+}
+
+/* 🪑 Icon bàn */
+.table-card i {
+  font-size: 40px;
+  color: #795548; /* màu nâu cà phê */
+}
+
+/* 📋 Tên bàn */
+.table-card .card-title {
+  font-weight: 600;
+  color: #333;
+}
+
+/* 🔖 Nhãn trạng thái */
+.table-card .badge {
+  font-size: 0.9rem;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+/* 🧭 Tiêu đề */
+.ftco-section h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #4e342e;
+}
+
+/* 🧡 Nút chọn bàn */
+.btn-primary.btn-lg {
+  background: linear-gradient(45deg, #795548, #a1887f);
+  border: none;
+  border-radius: 12px;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+.btn-primary.btn-lg:hover {
+  background: linear-gradient(45deg, #5d4037, #8d6e63);
+  transform: scale(1.03);
+}
+
+/* 🌀 Khi đang tải */
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+  color: #795548 !important;
+}
